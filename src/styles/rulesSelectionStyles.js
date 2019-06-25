@@ -1,0 +1,225 @@
+export const styles = {
+  RulesSelection: {
+    width: '100%',
+    height: '100%',
+    fontFamily: 'Targetica, "Helvetica Neue", Helvetica, Arial, sans-serif',
+  },
+  RulesSelectionHeader: {
+    width: '100%',
+    margin: '15px 0px',
+  },
+  RulesSelectionFilter: {
+    width: '100%',
+    fontSize: '20px',
+  },
+  RulesMain: {
+    width: '60%',
+    minWidth: '1000px',
+    height: 'calc(100% - 80px)',
+    position: 'absolute',
+  },
+  NewSizeChartButton: {
+    width: '20%',
+    height: '50px',
+    marginLeft: '15%',
+    marginTop: '20px',
+  },
+  rulesTableIdentifiers: {
+    width: '60%',
+    display: 'inline-block',
+    margin: 'auto',
+  },
+  rulesTableStats: {
+    width: '40%',
+    display: 'inline-flex',
+  },
+  rulesTableHeaderText: {
+    width: '50%',
+    textAlign: 'center',
+  },
+  rulesTableDataText: {
+    width: '33%',
+    textAlign: 'center',
+    margin: 'auto',
+  },
+  rulesTableDataTitleText: {
+    display: 'inline',
+  },
+  rulesExpansionPanelChild: {
+    paddingLeft: '0',
+    paddingRight: '0',
+    width: '100%',
+  },
+  expandedRulesTableCard: {
+    backgroundColor: '#ccc',
+  },
+  rulesTableDeleteDiv: {
+    display: 'inline',
+    margin: '0',
+    width: '50px',
+    height: '50px',
+  },
+  RulesBuilderStepper: {
+    width: '70%',
+    display: 'inline-block',
+    padding: '10px',
+  },
+  RulesBuilderMain: {
+    width: '100%',
+  },
+  RulesBuilderHeader: {
+    width: '100%',
+    height: '10%',
+  },
+  RulesBuilderControl: {
+    display: 'inline-block',
+    padding: '10px',
+  },
+  RulesBuilderControlButton: {
+    padding: '20px 40px 20px 40px',
+    marginBottom: '10px',
+  },
+  RulesBuilderStepButton: {
+    padding: '20px, 16px',
+    fontSize: '36px',
+  },
+  rulesBuilderContent: {
+    marginTop: '10px',
+  },
+  hidden: {
+    display: 'none',
+  },
+
+  rulesTCINTableImage: {
+    width: '100px',
+    marginTop: 'auto',
+    marginBottom: 'auto',
+    fontSize: '14px',
+    marginLeft: '15px',
+  },
+  rulesTCINTableTitle: {
+    width: '30%',
+    minWidth: '300px',
+    marginTop: 'auto',
+    marginBottom: 'auto',
+    marginLeft: '15px',
+    fontSize: '14px',
+  },
+  rulesTCINTableChart: {
+    width: '50%',
+    marginTop: 'auto',
+    marginBottom: 'auto',
+    fontSize: '14px',
+    marginLeft: '15px',
+  },
+  rulesTCINTableTCIN: {
+    minWidth: '80px',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+    fontSize: '14px',
+    margin: 'auto',
+  },
+  rulesTCINTableTop: {
+    width: '100%',
+    height: '40px',
+    marginTop: '10px',
+  },
+  rulesTCINTableSummary: {
+    width: '40%',
+    height: '100%',
+    display: 'inline-block',
+    textAlign: 'center',
+    fontSize: '18px',
+  },
+  rulesTCINTableFilter: {
+    width: 'calc(60% - 40px)',
+    marginLeft: '20px',
+    marginRight: '20px',
+    height: '100%',
+    fontSize: '24px',
+    display: 'inline-block',
+  },
+  rulesTCINTableBody: {
+    overflowY: 'auto',
+    display: 'inline-block',
+    overflowX: 'visible',
+    width: '100%',
+  },
+  rulesTCINTableImageCell: {
+    minWidth: '80px',
+    width: '20%',
+    textAlign: 'center',
+    margin: 'auto',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+  },
+  rulesTCINTableTitleCell: {
+    minWidth: '200px',
+    width: '40%',
+    margin: 'auto',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+  },
+  rulesTCINTableTCINCell: {
+    minWidth: '80px',
+    width: '15%',
+    margin: 'auto',
+    textAlign: 'center',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+  },
+  rulesTCINTableLDCell: {
+    minWidth: '100px',
+    margin: 'auto',
+    width: '20%',
+    textAlign: 'center',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+  },
+  rulesTCINTableCCCell: {
+    minWidth: '20px',
+    margin: 'auto',
+    width: '5%',
+    textAlign: 'center',
+    paddingLeft: '10px',
+    paddingRight: '10px',
+  },
+  rulesTCINTable: {
+    width: '100%',
+    overflowX: 'auto',
+    overflowY: 'hidden',
+    height: 'calc(100% - 40px)',
+    display: 'inline-grid',
+    alignContent: 'start',
+  },
+  rulesTableListMain: {
+    width: 'calc(100% - 16px)',
+    height: 'calc(100% - 80px)',
+    position: 'absolute',
+  },
+  rulesTableListSecondaryButton: {
+    left: '10px',
+    top: '50%',
+    width: '50px',
+    transform: 'translateY(-50%)',
+  },
+  rulesTableListIcon: {
+    right: '10px',
+    top: '50%',
+    position: 'absolute',
+    transform: 'translateY(-50%)',
+  },
+  rulesTableList: {
+    display: 'block',
+    height: '100%',
+  },
+  rulesTableHeader: {
+    backgroundColor: '#cccccc',
+  },
+  rulesListTableListWrapper: {
+    position: 'absolute',
+    width: '100%',
+    height: 'calc(100% - 60px)',
+    overflowY: 'auto',
+  },
+}

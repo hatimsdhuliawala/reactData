@@ -1,0 +1,1281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SizeChartUI Container the display element dialoges and snackbars should show the dialoge for sizeChart not found: sizechart_get_failed 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "display": "flex",
+      "fontFamily": "Targetica, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+      "height": "calc(100% - 10px)",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "minWidth": "600px",
+      "paddingTop": "10px",
+      "width": "100%",
+    }
+  }
+  id="SizeChartUI"
+>
+  <Prompt
+    message="Are you sure you want to leave, there is data unsaved"
+    when={true}
+  />
+  <div
+    className={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Category"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Brand"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Size"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "borderColor": "#333333",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "width": "200px",
+          }
+        }
+        disabled={true}
+        onClick={[Function]}
+        variant="outlined"
+      >
+         Get Size Chart 
+      </WithStyles(Button)>
+    </div>
+  </div>
+  <WithStyles(Dialog)
+    open={false}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Get Failed Title"
+    >
+      Size Chart Not Found
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Get Failed Text"
+      >
+        Size Chart does not exist, would you like to create it?
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        onClick={[Function]}
+      >
+        No
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Yes
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Save Failed Title"
+    >
+      Sizechart Data Error
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Save Failed Text"
+      />
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Ok
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Add Table Title"
+    />
+    <WithStyles(DialogActions)>
+      <WithStyles(SizeChartTable)
+        cancelAction={[Function]}
+        onClick={[Function]}
+      />
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Snackbar)
+    ContentProps={
+      Object {
+        "aria-describedby": "message-id",
+      }
+    }
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      }
+    }
+    autoHideDuration={6000}
+    message={
+      <span
+        id="message-id"
+      >
+        Size Chart Saved
+      </span>
+    }
+    onClose={[Function]}
+    open={undefined}
+  />
+  <div
+    className={
+      Object {
+        "display": "none",
+      }
+    }
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+  >
+    <div
+      className={
+        Object {
+          "display": "none",
+        }
+      }
+      name="SizeChartPreview"
+    />
+  </div>
+  
+</WithStyles(Paper)>
+`;
+
+exports[`SizeChartUI Container the display element dialoges and snackbars should show the dialoge for sizeChart save failed: sizechart_save_failed 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "display": "flex",
+      "fontFamily": "Targetica, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+      "height": "calc(100% - 10px)",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "minWidth": "600px",
+      "paddingTop": "10px",
+      "width": "100%",
+    }
+  }
+  id="SizeChartUI"
+>
+  <Prompt
+    message="Are you sure you want to leave, there is data unsaved"
+    when={true}
+  />
+  <div
+    className={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Category"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Brand"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Size"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "borderColor": "#333333",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "width": "200px",
+          }
+        }
+        disabled={true}
+        onClick={[Function]}
+        variant="outlined"
+      >
+         Get Size Chart 
+      </WithStyles(Button)>
+    </div>
+  </div>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Get Failed Title"
+    >
+      Size Chart Not Found
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Get Failed Text"
+      >
+        Size Chart does not exist, would you like to create it?
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        onClick={[Function]}
+      >
+        No
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Yes
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={true}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Save Failed Title"
+    >
+      Sizechart Data Error
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Save Failed Text"
+      >
+        This is a test, so this should show
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Ok
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Add Table Title"
+    />
+    <WithStyles(DialogActions)>
+      <WithStyles(SizeChartTable)
+        cancelAction={[Function]}
+        onClick={[Function]}
+      />
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Snackbar)
+    ContentProps={
+      Object {
+        "aria-describedby": "message-id",
+      }
+    }
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      }
+    }
+    autoHideDuration={6000}
+    message={
+      <span
+        id="message-id"
+      >
+        Size Chart Saved
+      </span>
+    }
+    onClose={[Function]}
+    open={undefined}
+  />
+  <div
+    className={
+      Object {
+        "display": "none",
+      }
+    }
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+  >
+    <div
+      className={
+        Object {
+          "display": "none",
+        }
+      }
+      name="SizeChartPreview"
+    />
+  </div>
+  
+</WithStyles(Paper)>
+`;
+
+exports[`SizeChartUI Container the display element dialoges and snackbars should show the dialoge to add a new table: sizechart_add_table 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "display": "flex",
+      "fontFamily": "Targetica, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+      "height": "calc(100% - 10px)",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "minWidth": "600px",
+      "paddingTop": "10px",
+      "width": "100%",
+    }
+  }
+  id="SizeChartUI"
+>
+  <Prompt
+    message="Are you sure you want to leave, there is data unsaved"
+    when={true}
+  />
+  <div
+    className={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={true}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Category"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={true}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Brand"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={true}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Size"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "borderColor": "#333333",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "width": "200px",
+          }
+        }
+        disabled={true}
+        onClick={[Function]}
+        variant="outlined"
+      >
+         Get Size Chart 
+      </WithStyles(Button)>
+    </div>
+  </div>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Get Failed Title"
+    >
+      Size Chart Not Found
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Get Failed Text"
+      >
+        Size Chart does not exist, would you like to create it?
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        onClick={[Function]}
+      >
+        No
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Yes
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Save Failed Title"
+    >
+      Sizechart Data Error
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Save Failed Text"
+      />
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Ok
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={true}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Add Table Title"
+    />
+    <WithStyles(DialogActions)>
+      <WithStyles(SizeChartTable)
+        cancelAction={[Function]}
+        onClick={[Function]}
+      />
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Snackbar)
+    ContentProps={
+      Object {
+        "aria-describedby": "message-id",
+      }
+    }
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      }
+    }
+    autoHideDuration={6000}
+    message={
+      <span
+        id="message-id"
+      >
+        Size Chart Saved
+      </span>
+    }
+    onClose={[Function]}
+    open={undefined}
+  />
+  <div
+    className={
+      Object {
+        "display": "none",
+      }
+    }
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+  >
+    <div
+      className={
+        Object {
+          "display": "none",
+        }
+      }
+      name="SizeChartPreview"
+    />
+  </div>
+  
+</WithStyles(Paper)>
+`;
+
+exports[`SizeChartUI Container the display element dialoges and snackbars should show the snackbar when a sizechart is saved: sizechart_save_failed 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "display": "flex",
+      "fontFamily": "Targetica, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+      "height": "calc(100% - 10px)",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "minWidth": "600px",
+      "paddingTop": "10px",
+      "width": "100%",
+    }
+  }
+  id="SizeChartUI"
+>
+  <Prompt
+    message="Are you sure you want to leave, there is data unsaved"
+    when={true}
+  />
+  <div
+    className={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Category"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Brand"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Size"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "borderColor": "#333333",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "width": "200px",
+          }
+        }
+        disabled={true}
+        onClick={[Function]}
+        variant="outlined"
+      >
+         Get Size Chart 
+      </WithStyles(Button)>
+    </div>
+  </div>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Get Failed Title"
+    >
+      Size Chart Not Found
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Get Failed Text"
+      >
+        Size Chart does not exist, would you like to create it?
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        onClick={[Function]}
+      >
+        No
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Yes
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Save Failed Title"
+    >
+      Sizechart Data Error
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Save Failed Text"
+      />
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Ok
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Add Table Title"
+    />
+    <WithStyles(DialogActions)>
+      <WithStyles(SizeChartTable)
+        cancelAction={[Function]}
+        onClick={[Function]}
+      />
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Snackbar)
+    ContentProps={
+      Object {
+        "aria-describedby": "message-id",
+      }
+    }
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      }
+    }
+    autoHideDuration={6000}
+    message={
+      <span
+        id="message-id"
+      >
+        Size Chart Saved
+      </span>
+    }
+    onClose={[Function]}
+    open={true}
+  />
+  <div
+    className={
+      Object {
+        "display": "none",
+      }
+    }
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+  >
+    <div
+      className={
+        Object {
+          "display": "none",
+        }
+      }
+      name="SizeChartPreview"
+    />
+  </div>
+  
+</WithStyles(Paper)>
+`;
+
+exports[`SizeChartUI Container the display element should render a sizechart and the toolbox: sizechart_loaded 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "display": "flex",
+      "fontFamily": "Targetica, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+      "height": "calc(100% - 10px)",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "minWidth": "600px",
+      "paddingTop": "10px",
+      "width": "100%",
+    }
+  }
+  id="SizeChartUI"
+>
+  <Prompt
+    message="Are you sure you want to leave, there is data unsaved"
+    when={true}
+  />
+  <div
+    className={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Category"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Brand"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Size"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "borderColor": "#333333",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "width": "200px",
+          }
+        }
+        disabled={true}
+        onClick={[Function]}
+        variant="outlined"
+      >
+         Get Size Chart 
+      </WithStyles(Button)>
+    </div>
+  </div>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Get Failed Title"
+    >
+      Size Chart Not Found
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Get Failed Text"
+      >
+        Size Chart does not exist, would you like to create it?
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        onClick={[Function]}
+      >
+        No
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Yes
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Save Failed Title"
+    >
+      Sizechart Data Error
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Save Failed Text"
+      />
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Ok
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Add Table Title"
+    />
+    <WithStyles(DialogActions)>
+      <WithStyles(SizeChartTable)
+        cancelAction={[Function]}
+        onClick={[Function]}
+      />
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Snackbar)
+    ContentProps={
+      Object {
+        "aria-describedby": "message-id",
+      }
+    }
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      }
+    }
+    autoHideDuration={6000}
+    message={
+      <span
+        id="message-id"
+      >
+        Size Chart Saved
+      </span>
+    }
+    onClose={[Function]}
+    open={undefined}
+  />
+  <div
+    className={
+      Object {
+        "display": "none",
+      }
+    }
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+  >
+    <div
+      className={
+        Object {
+          "display": "none",
+        }
+      }
+      name="SizeChartPreview"
+    />
+  </div>
+  
+</WithStyles(Paper)>
+`;
+
+exports[`SizeChartUI Container the display element should render the empty state: empty_state 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "display": "flex",
+      "fontFamily": "Targetica, \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+      "height": "calc(100% - 10px)",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "minWidth": "600px",
+      "paddingTop": "10px",
+      "width": "100%",
+    }
+  }
+  id="SizeChartUI"
+>
+  <Prompt
+    message="Are you sure you want to leave, there is data unsaved"
+    when={true}
+  />
+  <div
+    className={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Category"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Brand"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Autocomplete)
+        isDisabled={undefined}
+        items={undefined}
+        onChange={[Function]}
+        onSelect={[Function]}
+        placeholder="Size Chart Size"
+        value=""
+      />
+    </div>
+    <div
+      className={
+        Object {
+          "display": "inline-flex",
+          "margin": "20px",
+        }
+      }
+    >
+      <WithStyles(Button)
+        className={
+          Object {
+            "borderColor": "#333333",
+            "borderStyle": "solid",
+            "borderWidth": "1px",
+            "width": "200px",
+          }
+        }
+        disabled={true}
+        onClick={[Function]}
+        variant="outlined"
+      >
+         Get Size Chart 
+      </WithStyles(Button)>
+    </div>
+  </div>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Get Failed Title"
+    >
+      Size Chart Not Found
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Get Failed Text"
+      >
+        Size Chart does not exist, would you like to create it?
+      </WithStyles(DialogContentText)>
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        onClick={[Function]}
+      >
+        No
+      </WithStyles(Button)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Yes
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Save Failed Title"
+    >
+      Sizechart Data Error
+    </WithStyles(DialogTitle)>
+    <WithStyles(DialogContent)>
+      <WithStyles(DialogContentText)
+        id="Sizechart Save Failed Text"
+      />
+    </WithStyles(DialogContent)>
+    <WithStyles(DialogActions)>
+      <WithStyles(Button)
+        color="primary"
+        onClick={[Function]}
+      >
+        Ok
+      </WithStyles(Button)>
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Dialog)
+    open={undefined}
+  >
+    <WithStyles(DialogTitle)
+      id="Sizechart Add Table Title"
+    />
+    <WithStyles(DialogActions)>
+      <WithStyles(SizeChartTable)
+        cancelAction={[Function]}
+        onClick={[Function]}
+      />
+    </WithStyles(DialogActions)>
+  </WithStyles(Dialog)>
+  <WithStyles(Snackbar)
+    ContentProps={
+      Object {
+        "aria-describedby": "message-id",
+      }
+    }
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      }
+    }
+    autoHideDuration={6000}
+    message={
+      <span
+        id="message-id"
+      >
+        Size Chart Saved
+      </span>
+    }
+    onClose={[Function]}
+    open={undefined}
+  />
+  <div
+    className={
+      Object {
+        "display": "none",
+      }
+    }
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+  >
+    <div
+      className={
+        Object {
+          "display": "none",
+        }
+      }
+      name="SizeChartPreview"
+    />
+  </div>
+  
+</WithStyles(Paper)>
+`;

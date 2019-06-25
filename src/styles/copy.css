@@ -1,0 +1,41 @@
+.white-bg {
+  margin-top: 25px;
+  background-color: white
+}
+
+.copy-button-center {
+  margin-left: 50%
+}
+
+.copy-button-all {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.copy-table-border {
+  margin: 10px 0px;
+}
+
+.copy-button-primary {
+  background-color: rgb(33,150,243);
+  color: white;
+  padding: 10px 10px;
+  letter-spacing: .010em;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.copy-button-reject {
+  background-color: rgb(255,82,82);
+  color: white;
+  padding: 10px 10px;
+  letter-spacing: .010em;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}

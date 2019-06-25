@@ -1,0 +1,3 @@
+export const FREE_FORM = 'FREE_FORM'
+export const AUTOCOMPLETE = 'AUTOCOMPLETE'
+export const DOUBLE_COMBO_BOX = 'DOUBLE_COMBO_BOX'

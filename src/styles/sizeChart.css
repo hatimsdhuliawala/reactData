@@ -1,0 +1,35 @@
+.sc-display-inline-block {
+  display: inline-block;
+}
+
+.sc-display-inline{
+  display: inline;
+}
+
+.sc-margin-right-20 {
+  margin-right: 20px;
+}
+
+.sc-margin-left-20 {
+  margin-left: 20px;
+}
+
+.sc-width-100 {
+  width: 500px;
+}
+
+.sc-center {
+  margin-right:0px auto;
+  margin-left:0px auto;
+  justify-content: center;
+  display: flex;
+}
+
+.sc-circular-black {
+  color: black;
+}
+
+.sc-image-size {
+  width: 60px;
+  height: 60px;
+}

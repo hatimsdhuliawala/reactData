@@ -1,0 +1,32 @@
+/* Dashboard Page */
+/* .dp- prefix for "Dashboard Page" */
+body {
+  background-color: #EEEEEE;
+}
+.dp-body {
+    margin: 5px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.dp-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: .005em;
+}
+
+.dp-links-group {
+  margin: 20px;
+}
+
+.dp-links-group > div > a:link,
+.dp-links-group > div > a:visited,
+.dp-links-group > div > a:hover,
+.dp-links-group > div > a:active {
+  color: #01a3e7;
+}
+
+.dashBoardItemDesc div textarea:disabled {
+  color: #666666;
+  height: 114px;overflow: scroll !important;
+}

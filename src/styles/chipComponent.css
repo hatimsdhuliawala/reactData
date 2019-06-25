@@ -1,0 +1,62 @@
+.chips {
+  min-height: 36px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  line-height: 1;
+  font-size: 1em;
+}
+
+.chips-input {
+  width: 33% !important;
+  min-height: 36px;
+  margin: 0 0 5px 10px !important;
+  border: 0;
+  outline: none;
+  font-size: 0.9rem;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.chip {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  padding: 0;
+  height: 32px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 15px 15px 15px 15px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.chip .chip-value {
+  display: inline-block;
+  color: rgb(66,66,66);
+  padding-top: 10px;
+}
+
+.chip .chip-delete-button {
+  display: inline-block;
+  background: none;
+  color: rgb(66,66,66);
+  font-size: 1.2rem;
+  border: none;
+}
+
+.chip-invalid {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+  padding: 0;
+  height: 32px;
+  border: 2px solid red;
+  background-color: rgba(255,0,0,.15);
+  border-radius: 15px 15px 15px 15px;
+  padding-left: 15px;
+  padding-right: 5px;
+}

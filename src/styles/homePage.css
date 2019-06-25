@@ -1,0 +1,28 @@
+.hp-resolved-bg {
+  background-color: rgba(255, 255, 0 , 0.5);
+}
+
+.hp-alert-bg {
+  background-color: rgba(255,0,0,0.15)
+}
+
+.hp-margin-10 {
+  margin: 10px;
+}
+
+.hp-margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.hp-releaseNotes-header {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: .005em;
+}
+
+.hp-releaseNotes-data {
+  font-size: 14px;
+  letter-spacing: .010em;
+  font-weight: 400;
+  line-height: 20px;
+}
